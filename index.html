@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Teclado virtual</title>
+	</head>
+	<body>
+		<link href="./style.css" rel="stylesheet" type="text/css">
+
+		<div class="cabecera">
+				<h1>Teclado virtual</h1>
+				<h3>Creado por Iván García García</h3>
+				<textarea id="display" cols="75" rows="10" readonly></textarea>
+		</div>
+		
+		<p><div id="fecha"><span id="reloj"></span></div></p>
+        
+		<div id="contenedor">
+			<ul id="keyboard">
+				<li id="1" class="simbolo" onclick="teclado(id)">1</li>
+				<li id="2" class="simbolo" onclick="teclado(id)">2</li>
+				<li id="3" class="simbolo" onclick="teclado(id)">3</li>
+				<li id="4" class="simbolo" onclick="teclado(id)">4</li>
+				<li id="5" class="simbolo" onclick="teclado(id)">5</li>
+				<li id="6" class="simbolo" onclick="teclado(id)">6</li>
+				<li id="7" class="simbolo" onclick="teclado(id)">7</li>
+				<li id="8" class="simbolo" onclick="teclado(id)">8</li>
+				<li id="9" class="simbolo" onclick="teclado(id)">9</li>
+				<li id="0" class="simbolo" onclick="teclado(id)">0</li>
+				<li id="delete" class="delete" onclick="borrar()">Delete</li>
+				<li id="tab" class="tab" onclick="tab()">Tab</li>
+				<li id="q" class="letra" onclick="teclado(id)">q</li>
+				<li id="w" class="letra" onclick="teclado(id)">w</li>
+				<li id="e" class="letra" onclick="teclado(id)">e</li>
+				<li id="r" class="letra" onclick="teclado(id)">r</li>
+				<li id="t" class="letra" onclick="teclado(id)">t</li>
+				<li id="y" class="letra" onclick="teclado(id)">y</li>
+				<li id="u" class="letra" onclick="teclado(id)">u</li>
+				<li id="i" class="letra" onclick="teclado(id)">i</li>
+				<li id="o" class="letra" onclick="teclado(id)">o</li>
+				<li id="p" class="letra" onclick="teclado(id)">p</li>
+				<li id="capslock" class="capslock" onclick="functionCapsLock()">Caps Lock</li>
+				<li id="a" class="letra" onclick="teclado(id)">a</li>
+				<li id="s" class="letra" onclick="teclado(id)">s</li>
+				<li id="d" class="letra" onclick="teclado(id)">d</li>
+				<li id="f" class="letra" onclick="teclado(id)">f</li>
+				<li id="g" class="letra" onclick="teclado(id)">g</li>
+				<li id="h" class="letra" onclick="teclado(id)">h</li>
+				<li id="j" class="letra" onclick="teclado(id)">j</li>
+				<li id="k" class="letra" onclick="teclado(id)">k</li>
+				<li id="l" class="letra" onclick="teclado(id)">l</li>
+				<li id="return" class="return" onclick="intro()">Intro</li>
+				<li id="left-shift" class="left-shift" onclick="functionShift()">Shift</li>
+				<li id="z" class="letra" onclick="teclado(id)">z</li>
+				<li id="x" class="letra" onclick="teclado(id)">x</li>
+				<li id="c" class="letra" onclick="teclado(id)">c</li>
+				<li id="v" class="letra" onclick="teclado(id)">v</li>
+				<li id="b" class="letra" onclick="teclado(id)">b</li>
+				<li id="n" class="letra" onclick="teclado(id)">n</li>
+				<li id="m" class="letra" onclick="teclado(id)">m</li>
+				<li id="right-shift"class="right-shift" onclick="functionShift()">Shift</li>
+				<li id="space"class="space" onclick="space()"></li>
+			</ul>
+		</div>
+
+		<script type="text/javascript" src="./teclado.js"></script>
+	</body>
+</html>
